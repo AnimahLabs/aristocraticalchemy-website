@@ -31,7 +31,7 @@ export default function Home() {
           </p>
           <h1 className="font-display text-5xl md:text-7xl font-medium mb-8 leading-tight animate-fade-in-up animation-delay-100">
             <span className="text-white">Design Your </span>
-            <span className="gold-gradient-text">Legacy</span>
+            <span className="text-white">Legacy</span>
           </h1>
           <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 animate-fade-in-up animation-delay-200">
             We build digital products for those who value elegance in their systems. 
