@@ -62,6 +62,12 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
 }
 
+.hero-gradient-secondary {
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%), 
+               url('/header-secondary.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+}
+
 .card {
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.08);

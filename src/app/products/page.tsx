@@ -4,16 +4,16 @@ export default function Products() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#faf8f5]/90 backdrop-blur-md border-b border-black/5">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link href="/" className="font-display text-xl tracking-wide text-[#1a1a1a]">
+          <Link href="/" className="font-display text-xl tracking-wide text-white">
             Aristocratic Alchemy
           </Link>
           <div className="flex gap-8 text-sm tracking-wider">
-            <Link href="/products" className="text-[#1a1a1a] font-medium">
+            <Link href="/products" className="text-white font-medium">
               Products
             </Link>
-            <Link href="/philosophy" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] transition-colors">
+            <Link href="/philosophy" className="text-white/70 hover:text-white transition-colors">
               Philosophy
             </Link>
           </div>
@@ -21,11 +21,11 @@ export default function Products() {
       </nav>
 
       {/* Hero */}
-      <section className="pt-32 pb-16 px-6">
+      <section className="hero-gradient-secondary pt-32 pb-16 px-6 min-h-[50vh] flex items-center">
         <div className="max-w-6xl mx-auto">
           <p className="text-[#d4af37] text-sm tracking-[0.2em] uppercase mb-4">Our Products</p>
-          <h1 className="font-display text-5xl text-[#1a1a1a] mb-6">Curated Digital Tools</h1>
-          <p className="text-[#1a1a1a]/60 text-lg max-w-xl">
+          <h1 className="font-display text-5xl text-white mb-6">Curated Digital Tools</h1>
+          <p className="text-white/70 text-lg max-w-xl">
             Templates, workflows, and systems designed for those who value elegance in their work.
           </p>
         </div>
@@ -114,7 +114,7 @@ export default function Products() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 bg-[#1a1a1a] text-[#faf8f5]">
+      <footer className="py-12 px-6 bg-black text-[#faf8f5]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="font-display text-lg">Aristocratic Alchemy</p>
