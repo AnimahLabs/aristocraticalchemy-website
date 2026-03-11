@@ -57,7 +57,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-gradient {
-  background: linear-gradient(180deg, #faf8f5 0%, #f0ede8 50%, #e8e4dc 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%), 
+              url('/header.jpg') center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 .card {

@@ -4,16 +4,16 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#faf8f5]/90 backdrop-blur-md border-b border-black/5">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link href="/" className="font-display text-xl tracking-wide text-[#1a1a1a]">
+          <Link href="/" className="font-display text-xl tracking-wide text-white">
             Aristocratic Alchemy
           </Link>
           <div className="flex gap-8 text-sm tracking-wider">
-            <Link href="/products" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] transition-colors">
+            <Link href="/products" className="text-white/70 hover:text-white transition-colors">
               Products
             </Link>
-            <Link href="/philosophy" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] transition-colors">
+            <Link href="/philosophy" className="text-white/70 hover:text-white transition-colors">
               Philosophy
             </Link>
           </div>
@@ -27,10 +27,10 @@ export default function Home() {
             Est. 2026
           </p>
           <h1 className="font-display text-5xl md:text-7xl font-medium mb-8 leading-tight animate-fade-in-up animation-delay-100">
-            <span className="text-[#1a1a1a]">Design Your </span>
+            <span className="text-white">Design Your </span>
             <span className="gold-gradient-text">Legacy</span>
           </h1>
-          <p className="text-[#1a1a1a]/60 text-lg md:text-xl max-w-2xl mx-auto mb-12 animate-fade-in-up animation-delay-200">
+          <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 animate-fade-in-up animation-delay-200">
             We build digital products for those who value elegance in their systems. 
             Templates, tools, and workflows designed with intention.
           </p>
