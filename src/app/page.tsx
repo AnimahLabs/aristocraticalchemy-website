@@ -26,12 +26,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-gradient min-h-[85vh] flex items-center justify-center pt-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#d4af37] text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in-up">
-            Est. 2026
-          </p>
           <h1 className="font-display text-5xl md:text-7xl font-medium mb-8 leading-tight animate-fade-in-up animation-delay-100">
             <span className="text-white">Design Your </span>
-            <span className="text-white">Legacy</span>
+            <span className="text-[#d4af37]">Legacy</span>
           </h1>
           <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-12 animate-fade-in-up animation-delay-200">
             We build digital products for those who value elegance in their systems. 
