@@ -4,16 +4,19 @@ export default function Philosophy() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#faf8f5]/90 backdrop-blur-md border-b border-black/5">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link href="/" className="font-display text-xl tracking-wide text-[#1a1a1a]">
+          <Link href="/" className="font-display text-xl tracking-wide text-white">
             Aristocratic Alchemy
           </Link>
           <div className="flex gap-8 text-sm tracking-wider">
-            <Link href="/products" className="text-[#1a1a1a]/70 hover:text-[#1a1a1a] transition-colors">
+            <Link href="/products" className="text-white/70 hover:text-white transition-colors">
               Products
             </Link>
-            <Link href="/philosophy" className="text-[#1a1a1a] font-medium">
+            <Link href="/articles" className="text-white/70 hover:text-white transition-colors">
+              Articles
+            </Link>
+            <Link href="/philosophy" className="text-white font-medium">
               Philosophy
             </Link>
           </div>
@@ -21,14 +24,12 @@ export default function Philosophy() {
       </nav>
 
       {/* Hero with large graphic */}
-      <section className="pt-0">
-        <div className="h-[50vh] bg-gradient-to-b from-[#faf8f5] to-[#e8e4dc] flex items-center justify-center">
-          <div className="text-center px-6">
-            <p className="text-[#d4af37] text-sm tracking-[0.3em] uppercase mb-4">Our Philosophy</p>
-            <h1 className="font-display text-5xl md:text-6xl text-[#1a1a1a]">
-              Design Your Legacy
-            </h1>
-          </div>
+      <section className="hero-gradient-secondary pt-32 pb-16 px-6 min-h-[40vh] flex items-center">
+        <div className="max-w-6xl mx-auto text-center px-6">
+          <p className="text-[#d4af37] text-sm tracking-[0.3em] uppercase mb-4">Our Philosophy</p>
+          <h1 className="font-display text-5xl md:text-6xl text-white">
+            Design Your Legacy
+          </h1>
         </div>
       </section>
 

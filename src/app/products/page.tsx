@@ -13,6 +13,9 @@ export default function Products() {
             <Link href="/products" className="text-white font-medium">
               Products
             </Link>
+            <Link href="/articles" className="text-white/70 hover:text-white transition-colors">
+              Articles
+            </Link>
             <Link href="/philosophy" className="text-white/70 hover:text-white transition-colors">
               Philosophy
             </Link>
