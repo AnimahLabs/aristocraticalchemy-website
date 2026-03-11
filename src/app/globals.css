@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4af37;
+  --color-cream: #f5f5dc;
+  --color-charcoal: #141414;
+  --color-obsidian: #0a0a0a;
+  --color-subtle-gold: rgba(212, 175, 55, 0.15);
+  
+  --font-family-display: var(--font-playfair), serif;
+  --font-family-sans: var(--font-inter), sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf8f5;
+  color: #1a1a1a;
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair), serif;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #1a1a1a 0%, #d4af37 50%, #1a1a1a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  color: #faf8f5;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #d4af37 0%, #b8962e 100%);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #1a1a1a;
+  color: #faf8f5;
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, #faf8f5 0%, #f0ede8 50%, #e8e4dc 100%);
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+.animation-delay-400 { animation-delay: 400ms; }
