@@ -41,7 +41,7 @@ export default function Home() {
             <Link href="/products" className="btn-primary px-8 py-3 rounded-sm tracking-wide">
               Our Products
             </Link>
-            <Link href="/philosophy" className="btn-outline px-8 py-3 rounded-sm tracking-wide">
+            <Link href="/philosophy" className="btn-primary px-8 py-3 rounded-sm tracking-wide">
               Our Philosophy
             </Link>
           </div>
