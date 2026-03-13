@@ -1,20 +1,4 @@
-"use client";
-
-import { useEffect } from 'react';
-
 export default function NewsletterSignup() {
-  useEffect(() => {
-    // Load Kit form script
-    const script = document.createElement('script');
-    script.src = 'https://aristocratic-alchemy.kit.com/685c321026/index.js';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <section className="py-16 px-6 bg-black text-white">
       <div className="max-w-xl mx-auto text-center">
@@ -23,8 +7,14 @@ export default function NewsletterSignup() {
           Get exclusive insights on wealth, systems, and building something that lasts.
         </p>
         
-        {/* Kit Form Container */}
-        <div className="kit-form-container" data-uid="685c321026"></div>
+        <a
+          href="https://aristocratic-alchemy.kit.com/685c321026"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-3 bg-[#d4af37] text-black font-medium rounded-sm hover:bg-[#c4a027] transition-colors"
+        >
+          Join the Inner Circle
+        </a>
         
         <p className="text-white/30 text-xs mt-4">
           We respect your privacy. Unsubscribe anytime.
