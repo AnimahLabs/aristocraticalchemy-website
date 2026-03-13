@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 export default function Home() {
   return (
@@ -91,6 +92,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Newsletter */}
+      <NewsletterSignup />
 
       {/* Footer */}
       <footer className="py-12 px-6 bg-[#1a1a1a] text-[#faf8f5]">
